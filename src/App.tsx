@@ -8,7 +8,7 @@ import Kanban from './pages/kanban/Kanban';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/workstation">
       <Routes>
         <Route
           path="/login"
